@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simple Music Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="player">
+    <audio id="audioPlayer" src="/dist/015.mp3"> </audio>
+    
+
+    <button onclick="playAudio()" type="button">Play</button>
+    <button onclick="pauseAudio()" type="button">Pause</button>
+    <button onclick="nextAudio()" type="button">next</button>
+    <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="1" onchange="setVolume()">
+
+
+    
+</div>
+<script src="java.js"></script>
+</body>
+</html>

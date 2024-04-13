@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #e74545;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #6d2929;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.player {
+  align-items: center;
+  margin: auto;
+  
+}
+
+.player button, .player input {
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.player button, .player input {
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
